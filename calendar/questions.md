@@ -15,11 +15,17 @@ const tasks = [
   { title: 'Report', hours: 4, done: false },
 ];
 ```
-a) Return only the tasks that are not done.
-b) How many hours of open work are left in total?
+Return only the tasks that are not done.
 
-**5. Concept** – Name the 3 parts of your app (frontend, backend, database). How do they talk to each other?
+**5. JS problem** – Solve live:
 
-**6. Concept** – When I log in, what does the server give me? How does it know who I am on the next request?
+```js
+const task = { title: 'Study', hours: 3 };
+```
+Print: `Study takes 3 hours`
 
-**7. What if** – A user doesn't want to work on Sundays. What would you change?
+**6. Concept** – Name the 3 parts of your app (frontend, backend, database). How do they talk to each other?
+
+**7. Concept** – When I log in, what does the server give me? How does it know who I am on the next request?
+
+**8. What if** – A user doesn't want to work on Sundays. What would you change?

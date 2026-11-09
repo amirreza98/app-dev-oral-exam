@@ -15,11 +15,13 @@ const places = [
   { name: 'Museum Island',     city: 'Berlin'  },
 ];
 ```
-a) Return an array with only the names.
-b) Write `countInCity(places, city)` → `countInCity(places, 'Berlin')` returns `2`.
+Return an array with only the names.
 
-**5. Concept** – What do `GET`, `POST` and `DELETE /api/places` do? What do `201` and `401` mean?
+**5. JS problem** – Write a function `isBerlin(place)` that returns `true` if the place is in Berlin.
+`isBerlin(places[0])` → `true` · `isBerlin(places[1])` → `false`
 
-**6. Concept** – What happens on Vercel when someone opens your link? Where are your secrets?
+**6. Concept** – What do `GET`, `POST` and `DELETE /api/places` do? What do `201` and `401` mean?
 
-**7. What if** – A user wants to rename a place. What do you add?
+**7. Concept** – What happens on Vercel when someone opens your link? Where are your secrets?
+
+**8. What if** – A user wants to rename a place. What do you add?

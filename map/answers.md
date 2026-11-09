@@ -9,12 +9,18 @@
 **4.**
 ```js
 const names = places.map((p) => p.name);
-const countInCity = (places, city) => places.filter((p) => p.city === city).length;
 ```
-A `for` loop is fine too.
+A `for` loop with `push` is fine too.
 
-**5.** GET = list, POST = create, DELETE = remove. `201` = created, `401` = not logged in.
+**5.**
+```js
+function isBerlin(place) {
+  return place.city === 'Berlin';
+}
+```
 
-**6.** Vercel serves the built React files; `/api` runs Express as a serverless function. Secrets are in Vercel Environment Variables, not in GitHub.
+**6.** GET = list, POST = create, DELETE = remove. `201` = created, `401` = not logged in.
 
-**7.** Backend: `PATCH /api/places/:id` with SQL `UPDATE`. Frontend: call it, then update `places` state.
+**7.** Vercel serves the built React files; `/api` runs Express as a serverless function. Secrets are in Vercel Environment Variables, not in GitHub.
+
+**8.** Backend: `PATCH /api/places/:id` with SQL `UPDATE`. Frontend: call it, then update `places` state.

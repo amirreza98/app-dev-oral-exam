@@ -9,12 +9,17 @@
 **4.**
 ```js
 const open = tasks.filter((t) => !t.done);
-const hours = open.reduce((sum, t) => sum + t.hours, 0); // 7
 ```
-A `for` loop is fine too.
+A `for` loop with `if` is fine too.
 
-**5.** React (browser) → `fetch` + JSON → Express API → SQL → PostgreSQL.
+**5.**
+```js
+console.log(`${task.title} takes ${task.hours} hours`);
+```
+`task.title + ' takes ' + task.hours + ' hours'` is fine too.
 
-**6.** A JWT token. Saved in `localStorage`, sent as `Authorization: Bearer <token>`, checked by `requireAuth`.
+**6.** React (browser) → `fetch` + JSON → Express API → SQL → PostgreSQL.
 
-**7.** In `planner.js`, skip Sundays when building `workDays` (or add the rule to the AI prompt).
+**7.** A JWT token. Saved in `localStorage`, sent as `Authorization: Bearer <token>`, checked by `requireAuth`.
+
+**8.** In `planner.js`, skip Sundays when building `workDays` (or add the rule to the AI prompt).
